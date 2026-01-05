@@ -5,6 +5,7 @@
     --color-cream: #fef9f3;
     --color-pink: #FF90BC;
     --color-blue: #95ccff;
+    --color-purple: #CDC1FF;
     --color-text: #5a4a42;
     --color-text-light: #8a7a72;
     --color-white: #ffffff;
@@ -426,7 +427,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 600;
-    color: var(--color-pink);
+    color: var(--color-purple);
 }
 
 .modal-description h4 {

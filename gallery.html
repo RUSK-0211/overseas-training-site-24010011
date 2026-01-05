@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ギャラリー - 私の初めての海外研修</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ヘッダー -->
+    <div class="gallery-header">
+        <h1 class="gallery-title">思い出のギャラリー</h1>
+        <a href="index.html" class="btn-primary">Homeに戻る</a>
+    </div>
+
+    <!-- ギャラリーグリッド -->
+    <div class="gallery-grid">
+
+        <!-- 写真パネル -->
+        <div class="gallery-item" onclick="openModal(1)">
+            <div class="gallery-image-container">
+                <img src="img/GoldenGateBridge.jpg" alt="ゴールデンゲートブリッジ" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>ゴールデンゲートブリッジ</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openModal(2)">
+            <div class="gallery-image-container">
+                <img src="img/ComputerHistoryMuseum.jpg" alt="コンピューターヒストリーミュージアム" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>コンピュータの歴史</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openModal(3)">
+            <div class="gallery-image-container">
+                <img src="img/dollar.jpg" alt="ドル札" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>チップ文化</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openModal(4)">
+            <div class="gallery-image-container">
+                <img src="img/Autodesk-logo.png" alt="Autodesk" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>AUTODESK</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openModal(5)">
+            <div class="gallery-image-container">
+                <img src="img/NorthFace.jpg" alt="ノースフェイス" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>ヨセミテ国立公園</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openModal(6)">
+            <div class="gallery-image-container">
+                <img src="img/room.jpg" alt="ホテルの写真" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>現地のホテルでの経験</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openModal(7)">
+            <div class="gallery-image-container">
+                <img src="img/CenterForFineArts.jpg" alt="OTISの芸術センター" class="gallery-image">
+            </div>
+            <div class="gallery-item-title">
+                <h3>OTIS</h3>
+            </div>
+        </div>
+
+        <!-- コピーする
+    
+    <div class="gallery-item" onclick="openModal(6)">
+        <div class="gallery-image-container">
+            <img src="画像URLをここに入力" alt="写真の説明" class="gallery-image">
+        </div>
+        <div class="gallery-item-title">
+            <h3>写真のタイトル</h3>
+        </div>
+    </div>
+    ※ script.js にも対応する詳細データを追加する
+
+    </div>
+    -->
+
+        <!-- ========== 詳細モーダル ========== -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="" class="modal-image">
+                    <button onclick="closeModal()" class="modal-close">
+                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <div id="modal-description" class="modal-description"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

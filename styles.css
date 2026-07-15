@@ -5,7 +5,7 @@
     --color-cream: #fef9f3;
     --color-pink: #FF90BC;
     --color-blue: #95ccff;
-    --color-purple: #CDC1FF;
+    --color-purple: #CDAAFF;
     --color-text: #5a4a42;
     --color-text-light: #8a7a72;
     --color-white: #ffffff;
@@ -99,7 +99,7 @@ body {
 .arrow-down {
     width: 2rem;
     height: 2rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     margin: 0 auto;
 }
 

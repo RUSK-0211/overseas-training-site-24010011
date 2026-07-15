@@ -4,6 +4,6 @@
 
 ## デモ
 GitHub Pages:
-https://xxxxx.github.io/xxxx/
+https://rusk-0211.github.io/overseas-training-site-24010011/
 
 ## スクリーンショット

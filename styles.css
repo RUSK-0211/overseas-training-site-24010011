@@ -28,6 +28,8 @@ body {
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    text-shadow: 0 0 3px rgba(149, 124, 98, 0.2);
 }
 
 /* ============================================ */

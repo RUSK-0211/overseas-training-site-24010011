@@ -7,4 +7,9 @@ GitHub Pages:
 https://rusk-0211.github.io/overseas-training-site-24010011/
 
 ## スクリーンショット
+
+### トップページ
 ![スクリーンショット](img/Screenshot.png)
+
+### ギャラリー
+![スクリーンショット_ギャラリー](img/Screenshot_Gallery.png)
